@@ -1,0 +1,1212 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*JA DODO*/
+
+.sadrzaj{
+  margin-right: 7px !important;	
+}
+
+.navbar1{
+	margin-right: 5px;
+} 
+.navbar-default{
+	margin-right: 5px;
+}
+.how-it-work{
+  cursor: pointer !important;	
+}
+/*korsor pointer na naslovima u dodajmarku.blade.php*/
+.naslovdodajmarku, .naslovdodajmodele{
+  cursor: pointer !important;
+  padding: 10px;
+}
+.naslovsvikorisnici{
+  color: #fff;
+  background-color: #00AEEF;
+}
+.divkorisnici{
+  background-color: #b3d4fc;
+  padding: 20px;
+  height: auto!important;
+}
+.korisnik{
+  /*float: left;*/
+  padding: 20px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/*na hover na ovim naslovima u dodajmarku.blade.php*/
+.naslovdodajmarku:hover, .naslovdodajmodele:hover, .naslovsvikorisnici:hover{
+  color: #fff;
+  background-color: #00AEEF;
+}
+/*div u kom je forma za dodavanje marke u dodajmarku.blade.php i div u kom je forma za dodavanje modela takodje u dodajmarku.blade.php*/
+.formadodajmarku, .formadodajmodel, .formadodajpodatkekorisnika{
+  background-color: #b3d4fc;
+  padding: 20px;
+}
+
+.closebtn, .closebtnmodel, .closebtnsuccess, .closeoglasikorisnikabtn{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;	
+}
+/*div (koji se generise u dodajmarke.js kad se u formi za dodavanje modela marke u selectu odabere neka marka)u dodajmarke.blade.php koji 
+nudi da prikaze do sada unete modele neke marke, takodje div koji kad se klikne prikazuje formu za edit vec unete marke*/
+.prikazimodelemarke, .editmarke{
+  background-color: #00AEEF;	
+  padding: 10px!important;
+  font-weight: 400!important;
+  font-size: 16px!important;
+  color: #202020!important;
+}
+.prikazimodelemarke:hover, .editmarke:hover{
+  background-color: #00A2DE;
+  color: #fff!important;
+  cursor: pointer;
+}
+.modeli, .editmarkeforma{
+  background-color: #00AEEF;	
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.ulmodela{
+  width: 90%!important;
+  margin-left: 5%!important;	
+}
+.listamodela{
+
+}
+.puli{
+  /*width: 95%;*/
+  max-width: inherit;	
+}
+.editmodleaforma{
+  width: 90%!important;	
+  margin-left: 5%!important;
+  background-color: #72c160;	
+}
+#editmodellabel{
+  margin: 10px;
+}
+#imemodelaedit{
+  margin: 10px;	
+}
+.editmodelbtn, .editmarkebtn{
+  margin: 10px;
+  background-color: green!important;	
+}
+.formazabrisanjemarke{
+  margin-bottom: 55px!important;
+}
+.obrisimarkubtn{
+  margin-bottom: 10px;
+  margin-left: 10px!important;
+  background-color: red!important;  
+}
+.deletemodel{
+  background-color: red;
+}
+/*div u kom je tabela koja u profil.blade.php prikazuje osnovne podatke korisnika*/
+.podatcikorisnika{
+  margin-bottom: 0px!important;	
+  margin-top: 0px!important;
+}
+.profilkorisnika{
+  background-color: #f9f9f9!important; 	
+}
+.tbl-logo, .tbl-title{
+  background-color: ##f9f9f9!important; 	
+}
+.orangebtn{
+  background-color: #ffae19!important;
+}
+.greenbtn{
+  background-color: #33FF57!important;
+}
+/*redbtn*/
+.redbtn{
+  background-color: red!important;
+  padding-right: 7px!important;
+  padding-left: 8px!important;
+}
+.profilkorisnika:hover{
+  background-color: #00adee!important; 	
+}
+/*naslov u profil.blade.php koji kad se klikne prikazuje formu tako da sluzi kao veliki btn i naslov koji prikazuje do sada dodate oglase korisnika*/
+.naslovdodajpodatkekorisnika, .naslovoglasikorisnika, .naslovnemaoglasakorisnika, .naslovprikaziformuzapretragu{
+  background-color: #00adee!important; 
+  cursor: pointer !important;
+  padding: 10px;
+  color: #333;		
+}
+.naslovjosoglasa, .naslovpretraga{
+  background-color: #00adee!important; 
+  cursor: pointer !important;
+  padding: 10px;
+  color: #333;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.shadow{
+  box-shadow: 5px 5px 5px #888888;
+}
+.naslovdodajpodatkekorisnika:hover, .naslovoglasikorisnika:hover, .naslovprikaziformuzapretragu:hover, .naslovjosoglasa:hover, .naslovpretraga:hover{
+  color: #fff;
+}
+/*div koji prikazuje success poruke*/
+.success-message{
+  color: #93b290!important;
+}
+
+.infoikona:hover{
+  cursor: pointer;
+}
+.zatvoriinfo:hover, .zatvorilistumodela:hover, .zatvoriizmenimarku:hover{
+  cursor: pointer;
+  color: white;
+}
+/*div za google mapu u profil.blade.php*/
+#map-canvas{
+  margin-left: 5%;
+  padding: 10px;
+  width:90%;
+  height:420px;
+}
+
+.infodivmap{
+  margin-left: 5%;
+  padding: 10px;
+  width: 90%!important;
+  height: auto;
+  color: orange!important;
+  background-color: #ffe5b2;
+  font-size: 80%;
+  padding: 7px;
+}
+.formamapa{
+  margin-left: 5%!important;
+}
+/*info koji je vidljiv u profil.blade.php kad korisnik hoe info o poljima u formi*/
+/*neki infodiv-ovi(ona polja koja su obavezna) su crveni neki narandzasti(ona polja koja nisu obavezna)*/
+.infodiv{
+  /*padding-left: 5px;
+  padding-right: 5px;*/
+  padding: 7px;
+  margin-left: 1px!important;
+  margin-right: 0px!important;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+  font-size: 80%;
+  color: red!important;
+  background-color: #ffe5e5;
+}
+.infodivorange{
+  padding: 7px;
+  margin-left: 1px!important;
+  margin-right: 0px!important;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+  font-size: 80%;
+  color: orange!important;
+  background-color: #ffe5b2;
+}
+/*select za sortiranje korisnika u users.blade.php*/
+.korisnicisortselect{
+  padding-left: 0px!important;
+  padding-bottom: 10px!important;
+}
+/*spanovi tj btn za submit malih formi za pretragu korisnika po imenu ili id-u u users.blade.php*/
+.pretrazispanime:hover, .pretrazispanid:hover{
+  cursor: pointer;
+  background-color: #00AEEF;
+  color: white;
+}
+#submitbtndiv:hover{
+  cursor: pointer!important;
+}
+
+/*inputi za upload slike u formi za kreiranje oglasa se ne prikazuju vec se klikce na label koji je slika*/
+.image-upload > input{
+    display: none;
+}
+/*taj label na hover pokazuje pointer da bi user znao da moze da klikne*/
+.slikaupload{
+  cursor: pointer!important;
+}
+.checkboxnovioglas{
+  cursor: pointer!important;
+}
+/*div-ovi koji prikazuju upravo dodati oglas u profile.blade.php*/
+.novioglasprofilusera{
+  background-color: #e6ffe6!important;
+  color: #00adee!important;
+}
+.novioglasprikaz{
+
+}
+.logomarke{
+  width: 100px;
+  height: 100px;
+}
+.closenovioglas{
+  margin-top: 5px!important;
+  cursor: pointer!important;
+}
+/*prikaz slika kad se novi oglas prikazuje u profil.blade.php*/
+.novioglasslike{
+  width: 150px; 
+  height: 100px;
+  margin-top: 5px!important;
+  margin-bottom: 5px!important;
+}
+/*prikaz do sada dodatih oglasa nekog korisnika u profil.blade.php*/
+.oglasikorisnikaprofil{
+  background-color: #b3d4fc;
+  padding: 20px;
+}
+/**/
+.naslovnaslika{
+  width: 180px; 
+  height: 120px;
+}
+/*naslov oglasa koji se prikazuju u profil.blade.php*/
+.naslovoglasaprofil{
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+.logomarkeoglasaprofil{
+  width: 35px;
+  height: 35px;
+}
+/*div koji prikazuje osnovne podatke userovih oglasa u profil.blade.php*/
+.podatcioglasa{
+  padding-left: 15px!important;
+}
+.podatcivozilaprofil{
+  margin-bottom: 0px!important;
+}
+.oglasbtnprofilblade{
+  margin-bottom: 5px!important;
+}
+.bezdekoracije{
+  text-decoration: none!important;
+}
+/*izmenioglas.blade.php slike*/
+.izmenioglasslike{
+  width: 100%; 
+  /*height: 140px!important;*/
+  margin-top: 5px!important;
+  margin-bottom: 15px!important;
+}
+.imgdiv:hover{
+  background-color: #00AEEF;
+}
+.deleteizmenioglasimg:hover{
+  cursor: pointer;
+}
+
+/*adminoglasi.blade.php*/
+.neodobrenioglasi{
+  /*background-color: #f4dbd9;*/
+  background-color: #FFA07A;
+}
+.odobrenioglasi{
+  /*background-color: #c7edc7;*/
+  background-color: #67f967;
+}
+.svetlijapozadinaneodobren{
+  background-color: #f4eceb;
+}
+.svetlijapozadinaodobren{
+  background-color: #e9f4e3;
+}
+.adminoglasislika{
+  height: 50px;
+  width: 80px;
+}
+.oglasslikeadminoglasi{
+  height: 50px;
+  width: 80px;
+  margin-top: 2px;
+}
+.linkkaadminoglasioilin:hover{
+  cursor: pointer;
+  color: white;
+}
+.neodobrenoglas{
+  padding-top: 5px!important;
+  padding-left: 5px!important;
+}
+.neodobrenoglas:hover{
+  background-color: #f4eceb;
+}
+.odobrenoglas{
+  padding-top: 5px!important;
+  padding-left: 5px!important;
+}
+.odobrenoglas:hover{
+  background-color: #e9f4e3;
+}
+/*.svipodatcioglasan, .svipodatcioglasao{
+  background-color: #00adee!important; 
+  cursor: pointer !important;
+  padding: 10px;
+  color: #333; 
+  width: 98%;
+}*/
+.svipodatcioglasa{
+  background-color: #00adee!important; 
+  cursor: pointer !important;
+  padding: 10px;
+  color: #333; 
+  width: 98%;
+}
+.svipodatcioglasa:hover{
+  color: #fff;
+}
+.zatvorisvepodatkeoglasa{
+  margin-right: 5px!important;
+}
+.zatvorisvepodatkeoglasa:hover{
+  cursor: pointer;
+}
+.zabranioglasadminoglasi{
+  /*margin-left: 3px!important;*/
+  margin-bottom: 5px;
+}
+.odobrioglasadminoglasi{
+  /*margin-left: 3px;*/
+  margin-bottom: 5px;
+}
+/**/
+.oilinoglasdiv{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*FRONTEND*/
+/*prikaz oglasa u welcome.blade.php*/
+.jedanoglas{
+  margin: 5px 0px 5px 0px;
+  background-color: #b3d4fc;
+  padding: 5px; 
+}
+.paneloglasinaslovna{
+  background-color: #d9edf7!important;
+}
+.naslovnaslikapocetna{
+  width: 100%;
+  height: 100%;
+}
+.cenanaslovna{
+  background-color: orange;
+  color: white;
+  padding: 0px 2px 0px 2px;
+}
+.divosnovnipodatcioglasanaslovna{
+  padding: 0px 0px 0px 15px!important;
+}
+.posnovnipodatcioglasanaslovna{
+  margin-top: 2px;
+}
+.frontformah4{
+  margin-top: 0px!important;
+  margin-bottom: 5px!important;
+}
+/*oglasi koje prve vrati kontroler u welcome.blade.php i oglasi u rezpretrage.blade.php nemaju dekoraciju*/
+.frontjedanoglaslink{
+  text-decoration: none!important;
+  color: #333!important;
+}
+.frontjedanoglaslink:hover{
+  text-decoration: none!important;
+}
+/*kad welcome.js generise dodatne oglase u welcome.blade.php posto su oni linkovi ka oglasu cursor pointer*/
+.oglasizwelcomejs:hover{
+  cursor: pointer !important;
+}
+/*naslov oglasa u oglas.blade.php*/
+.naslovoglasa{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+/*div .levo u oglas.blade.php u kom je naslovna slika i male slike*/
+.levo{
+  /*border-left:  1px solid #00adee;
+  border-right:  1px solid #00adee;*/
+}
+/**/
+.levounutrasnji{
+  margin: 0px;
+}
+/**/
+.borderlevodesno{
+  border-left:  1px solid #00adee;
+  border-right:  1px solid #00adee;
+}
+/*spoljni div oko naslovne tj glavne slike oglasa u oglas.blade.php*/
+.divnaslovnaslikaspoljni{
+  /*border: 1px solid #00adee;*/
+  overflow: hidden;
+}
+/*naslovna slika oglas.blade.php*/
+.naslovnaslikaoglas{
+  width: 100%;
+  height: 100%;
+  object-fit: contain!important;
+  object-position: center; 
+}
+.maleslike{
+  margin-left: 0px!important;
+  padding-left: 0px!important;
+}
+.malanaslovnaslika{
+  width: 100%;
+  height: 100%;
+  /*object-fit: contain!important;*/
+}
+.malanaslovnaslika:hover{
+  cursor: pointer !important;
+}
+.dodajopacity{
+  opacity: 0.4;
+}
+/*padinzi za div-ove u oglas.blade.php koji prikazuju slike*/
+.paddinglevo{
+  padding: 0px 0px 0px 15px;
+}
+.paddinglevodesno{
+  padding: 0px 15px 0px 15px;
+}
+/*centriranje ikona za sledecu i prethodnu sliku na naslovnoj slici oglasa u oglas.blade.php, top je definisan u oglas.js*/
+.prethodnaslika{
+  position: absolute;
+  left: 20px;
+  z-index: 10;
+}
+.sledecaslika{
+  position: absolute;
+  right: 20px;
+  z-index: 10;
+}
+.zoomin{
+  position: absolute;
+  /*right: 20px;*/
+  z-index: 10;
+}
+.zoominicon{
+  height: 100px;
+  width: 100px;
+}
+.prethodnaslika:hover, .sledecaslika:hover, .zoominicon:hover{
+  cursor: pointer !important;
+}
+.strelicenaslovnajslika{
+  width: 30px;
+  height: 30px;
+}
+/*div koji pokriva ceo ekran u oglas.blade.php kad user gleda galeriju slika oglasa*/
+.ceoekran{
+  width: 100%;
+  height: 100%;
+  background:rgba(105,105,105,0.98); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100; 
+  
+}
+.galerija{
+  overflow: hidden;
+  /*padding: 135px!important;*/
+}
+/*ikona x za zatvaranje div-a ceoekranu oglas.blade.php kad user gleda galeriju slika oglasa*/
+.zatvorislikeceoekran{
+  margin-right: 30px!important;
+  margin-top: 20px; 
+}
+/**/
+.galerijajednaslika{
+  width: 100%;
+  height: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: fixed;
+  /*position: relative;*/
+  top: 0;
+  left: 0;
+  object-fit: contain!important;
+  /*object-position: center; */
+}
+/*ikone za sledecu i prethodnu sliku u galeriji izgenerisane u oglas.js*/
+.prethodnaslikagalerija{
+  left: 20px;
+  /*top: 100px;*/
+  z-index: 10;
+  position: fixed;
+}
+.sledecaslikagalerija{
+  right: 20px;
+  /*top: 100px;*/
+  z-index: 10;
+  position: fixed;
+}
+.strelicegalerija{
+  width: 30px;
+  height: 30px;
+}
+.strelicegalerija:hover{
+  cursor: pointer !important;
+}
+/*senka za naslov i cenu oglasa u oglas.blade.php*/
+.slovasenka{
+  text-shadow: 1px 1px 1px #444;
+}
+/**/
+.cenaoglas{
+  color: orange;
+}
+/*naslovi u div-u .ispod oglas.blade.php*/
+.naslovdivispod{
+  color: orange;;
+}
+/*div za google map u oglas.blade.php*/
+#map{
+  padding: 10px;
+  width:90%;
+  height:420px;
+}
+
+
+/*DOVDE*/
+
+
+
+
+.header-connect{
+	padding-top: 10px;
+}
+.header-call p{
+	color: #666666;
+}
+.header-call p span{
+	margin-right: 15px;
+	font-weight: 300;
+}
+.header-call p span i{
+	margin-right: 3px;
+	font-size: 18px
+}
+.header-social ul{
+	padding-top: 5px
+}
+.header-social ul li a{
+	color: #666666;
+	font-size: 14px
+
+}
+.header-social ul li a:hover{
+	color: #00AEEF
+}
+.navbar-default .navbar-nav > li > a{
+	color: #202020;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	position: relative;
+
+}
+.navbar-nav > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.navbar-default .navbar-nav > li > a.active:after{
+
+  background-color: #00aeef;
+  bottom: -24px;
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  transition: all 0.2s ease 0s;
+  width: 100%;
+}
+.navbar-default .navbar-nav > li > a::after {
+background-color: #00aeef;
+  bottom: -24px;
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  transition: all 0.2s ease 0s;
+  width: 0%;
+}
+.navbar-default .navbar-nav > li > a:hover:after {
+	width: 100%;
+}
+
+.navbar-nav.navbar-right:last-child{
+	margin-right: 20px
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+.main-nav {
+  padding-top: 10px;
+}
+.button.navbar-right {
+  padding-top: 10px;
+}
+.nav-button {
+  background-color: #c2c2c2;
+  border: medium none;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 2px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.nav-button.login{
+	background-color: #00AEEF;
+	margin-right: 5px;
+}
+.nav-button:hover{
+	background-color: #00AEEF;
+
+}
+.navbar{
+	margin-bottom: 0px;
+	min-height: 100px;
+}
+.navbar-default {
+  background-image: none;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.navbar .container{
+	padding-top: 15px
+}
+
+.slider-area{
+	position: relative;
+	height: 630px
+}
+#bg-slider .item img{
+	width: 100%;
+	height: 630px
+}
+
+.slider-content{
+	position: absolute;
+	top:20%;
+	left: 50%;
+	margin-left: -585px;
+	text-align: center;
+	color: #fff
+}
+.slider-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.slider-content p {
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.slider .owl-theme .owl-controls {
+	margin-top: 0px;
+  position: relative;
+  text-align: center;
+}
+.slider .owl-pagination {
+  bottom: 280px;
+  position: absolute;
+  right: 10px;
+  width: 40px;
+}
+.slider .owl-theme .owl-controls .owl-page span{
+	background: #fff
+}
+.search-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+.form-horizontal .form-control, .form-inline .form-control {
+  background: none repeat scroll 0 0 #eeeeee;
+  border-radius: 1px;
+  color: #333;
+  font-style: italic;
+  height: 40px;
+  margin-right: 10px;
+  /*width: 195px;*/
+  width: 80%; /* ja dodo */
+}
+.form-horizontal input[type=submit]{
+	background: #00AEEF;
+	color: #fff;
+	height: 40px;
+	width: auto; /* ja dodo */
+	border-radius: 1px;
+	font-weight: 400;/*ja dodo , pisalo bold*/
+	font-size: 16px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.form-horizontal input[type=submit]:hover{
+	background: #00A2DE
+}
+/* ja dodo da bi foram u register.blade.php i login.blade.php izgledale malo lepse */
+.lepfont{
+	font-family: "Open Sans", sans-serif!important;
+	font-weight: 400!important;
+	font-size: 16px!important;
+	color: #202020!important;
+}
+/* dovde */
+
+.page-title {
+	padding-top: 70px;
+}
+.page-title h5{
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 0
+}
+.page-title h2 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.page-title h2 span{
+	color: #00ADEF
+}
+.page-title p {
+  color: #666666;
+  line-height: 30px;
+  padding: 0 25%;
+  margin-top: 16px;
+}
+
+.how-it-work{
+	margin: 40px 0 80px
+}
+
+.single-work{
+	padding: 50px 0 70px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	border-bottom: 2px solid #00AEEF
+}
+.single-work h3{
+	color: #202020;
+	font-size: 20px;
+	font-weight: 500;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.single-work p {
+  color: #666666;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+  padding: 0 37px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.single-work.active{	
+	background: #00AEEF
+}
+.single-work.active h3{
+	color: #fff
+}
+.single-work.active p{
+	color: #eeeeee
+}
+.single-work:hover{
+	background: #00AEEF
+}
+.single-work:hover h3{
+	color: #fff
+}
+.single-work:hover p{
+	color: #eeeeee
+}
+
+
+.nav-tabs > li > a{
+	color: #666;
+	font-weight: 300;
+  border-width: 4px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border-color: transparent transparent #00AEEF;
+  border-style: solid;
+  border-width: 4px;
+  color: #666666;
+  cursor: default;
+  font-weight: 700;
+  outline: none;
+}
+
+.job-posting{
+	padding: 60px 0
+}
+.job-posting .tab-content{
+	margin-top: 30px
+}
+
+.tab-content ul li {
+	margin-right: 14px;
+	overflow: hidden;
+}
+.tab-content ul li:last-child{
+	margin-right: 0;
+}
+
+.tab-content ul li a{
+	position: relative;
+}
+
+.tab-content ul li a:hover .overlay {
+	opacity: 1
+}
+.overlay {
+  background: -webkit-linear-gradient(transparent 57%, rgba(0,0,0,1) 100%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(transparent 57%, rgba(0,0,0,1) 100%); /* FF1.6+ */
+  background:     -ms-linear-gradient(transparent 57%, rgba(0,0,0,1) 100%); /* IE10 */
+  background:      -o-linear-gradient(transparent 57%, rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+  background:         linear-gradient(transparent 57%, rgba(0,0,0,1) 100%); /* W3C */
+  border-radius: 2px;
+  height: 189px;
+  left: 0;
+  position: absolute;
+  top: -82px;
+  width: 98%;
+  opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.overlay > h3 {
+  bottom: -50px;
+  margin: 0;
+  position: absolute;
+  left: 15px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.tab-content ul li a:hover .overlay h3{
+	bottom: 20px
+}
+
+.tab-content ul.job-seeker li a .overlay{
+	
+}
+.tab-content ul.job-seeker li a .overlay h3 {
+  bottom: -100px;
+}
+.tab-content ul.job-seeker li a:hover .overlay h3 {
+  bottom: 35px;
+}
+.tab-content ul.job-seeker li a .overlay p {
+  bottom: 3px;
+  color: #fff;
+  font-weight: 400;
+  left: -100px;
+  position: absolute;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition-delay:0.2s;
+	-moz-transition-delay:0.2s;
+	-ms-transition-delay:0.2s;
+	-o-transition-delay:0.2s;
+	transition-delay:0.2s;
+
+}
+.tab-content ul.job-seeker li a:hover .overlay p{
+	left: 18px
+}
+.jobs{
+	margin-bottom: 60px
+}
+.jobs{
+	margin-top: 50px
+}
+.table tr{
+
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.table tr.hide-jobs{
+	display: none;
+}
+.table tr td h4{
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.table tr td{
+	padding:6px;
+}
+.table tr td h4 span{
+	font-weight: 300;
+	font-size: 14px
+}
+.table tr td p i{
+	color: #00AEEF
+}
+.table tr td p{
+	font-size: 13px
+}
+.table tr td a{
+	color: #fff;
+	background: #00AEEF;
+	padding:12px 15px;
+	border-radius: 5px;
+	font-size: 13px;
+	text-decoration: none;
+
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.table tr:hover td a{
+	background: #0486B7
+}
+.table tr:hover td a:hover{
+	background: #fff;
+	color: #00AEEF
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+	border-top: 0px;
+	vertical-align: middle;
+	padding: 15px
+}
+.table > tbody > tr > td.tbl-logo{
+	padding-right: 0px
+}
+.table > tbody > tr > td.tbl-apply{
+	padding-right: 10px;
+	padding-left: 0px;
+}
+.table > tbody > tr > td.tbl-title{
+	padding-left: 5px
+}
+.table tr.odd{
+	background: #F9F9F9
+}
+.table tr.even{
+	background: #F4FFFF
+}
+.table tr:hover{
+	background: #00AEEF;
+	color: #fff
+}
+
+.more-jobs{
+	margin-top: 30px
+}
+.more-jobs a {
+  background: none repeat scroll 0 0 #d1d1d1;
+  color: #666666;
+  padding: 14px 22px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.more-jobs i{
+	margin-right: 10px;
+	font-size: 16px
+}
+
+
+.job-add{
+	background: url(img/job-add.png);
+	height: 500px;
+}
+.job-add h2 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0;
+  padding: 305px 20px 0;
+  text-transform: uppercase;
+}
+.job-add a {
+  background: none repeat scroll 0 0 #00aeef;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0 0 20px;
+  padding: 21px 55px;
+  font-size: 15px;
+}
+
+.table-responsive {
+  margin-bottom: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+.testimonial{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.testimonial .item {
+	padding-bottom: 30px;
+}
+.testimonial .item .client-face {
+  position: absolute;
+  top: 78px;
+  right: 130px;
+}
+.client-face > img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.testimonial .owl-theme .owl-controls .owl-page span{
+	background: #00AEEF
+}
+.client-text {
+  background: none repeat scroll 0 0 #00aeef;
+  border-radius: 2px;
+  color: #fff;
+  margin-left: 175px;
+  padding: 20px 30px;
+  width: 800px;
+}
+.client-text p {
+  line-height: 30px;
+}
+.client-text h4 {
+	font-size: 15px
+}
+.client-text h4 i{
+	font-size: 13px
+}
+
+.footer-area{
+	background: #000;
+	border-top: 4px solid #00AEEF;
+	padding-bottom: 20px
+
+}
+.footer{
+	padding: 0px 0 80px 0;
+}
+.single-footer{
+	margin-top: 60px
+}
+.single-footer img{
+	margin-bottom: 20px;
+}
+.single-footer p{
+	color: #fff;
+	line-height: 26px;
+}
+.single-footer h4{
+	color: #fff;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 45px
+}
+.single-footer h5{
+	color: #fff;
+	margin-top: 20px;
+	font-weight: 700;
+}
+.single-footer a{
+	color: #fff;
+}
+.single-footer ul li{
+	margin-bottom: 10px
+}
+.single-footer ul li a{
+	color: #6d7a83;
+	font-weight: 700;
+}
+.single-footer ul li a:hover{
+	color: #00aeef;
+	text-decoration: none;
+}
+
+.footer-copy{
+	color: #fff;
+	font-weight: 700;
+}
+
+.footer-copy span{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.footer-copy span a{
+	color: #00aeef;
+	font-weight: 800;
+}
+body {
+	overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(img/preloader.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
